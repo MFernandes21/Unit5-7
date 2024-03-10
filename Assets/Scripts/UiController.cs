@@ -15,7 +15,6 @@ public class UiController : MonoBehaviour
     {
         AudioManager.instance.ToggleSFX();
     }
-
     public void MusicVolume()
     {
         AudioManager.instance.MusicVolume(_musicSlider.value);
