@@ -3227,7 +3227,7 @@ MonoBehaviour:
   - name: Theme
     clip: {fileID: 8300000, guid: 15c21c2c9c3e70947803e57466fd6c0e, type: 3}
   sfxSounds:
-  - name: Button Click
+  - name: Button
     clip: {fileID: 8300000, guid: 05711bddc405f1a458ebe823333772bc, type: 3}
   musicSource: {fileID: 1040921964}
   sfxSource: {fileID: 1026278252}
@@ -4490,7 +4490,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Just enjoy the view.
+  m_text: Press spacebar to return to the menu.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -7052,18 +7052,6 @@ MonoBehaviour:
       - m_Target: {fileID: 1026278252}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1040921964}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Stop
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
